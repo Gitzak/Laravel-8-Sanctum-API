@@ -30,9 +30,19 @@ GET   /api/products/:id
 
 POST   /api/login
 @body: email, password
+{
+	"email" : "zak@gmail.com",
+	"password": "123456"
+}
 
 POST   /api/register
 @body: name, email, password, password_confirmation
+{
+	"name" : "zak",
+	"email" : "zak@gmail.com",
+	"password": "123456",
+	"password_confirmation": "123456"
+}
 
 
 # Protected
